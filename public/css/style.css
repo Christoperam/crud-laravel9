@@ -1,0 +1,30 @@
+#btnAdd {
+    background-color: #ffffff;
+    color: #393939;
+    border-color: #39A6E8;
+    border-width: 2px;
+    box-shadow: inset 0 0 0 0 #39A6E8;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+
+#btnAdd:hover {
+    box-shadow: inset 138px 0 0 0 #39A6E8;
+    color: #000;
+}
+
+@-webkit-keyframes shake {
+    from {
+        -webkit-transform: rotate(15deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-15deg);
+        -webkit-transform-origin: center center;
+    }
+}
+
+#delete-icon:hover,
+#edit-icon:hover {
+    -webkit-animation: shake 0.1s ease-in-out 0.1s infinite alternate;
+}
